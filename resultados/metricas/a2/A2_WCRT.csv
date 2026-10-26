@@ -1,0 +1,7 @@
+tarefa,prioridade,periodo_us,deadline_us,c_observado_us,c_mbwcet_us,overhead_us,orcamento_rta_us,bloqueio_us,wcrt_us,resposta_observada_max_us,margem_us,uso_deadline_wcrt_pct,uso_deadline_observado_pct,iteracoes
+T_Atuacao,8,5715000,20000,93,110,160,270,0,270,241,19730,1.35,1.205,1
+T_Watchdog,7,5000,20000,15,20,0,20,0,5290,4439,14710,26.45,22.195,2
+T_Supervisao,6,500000,500000,77976,82000,0,82000,325000,408910,385579,91090,81.782,77.1158,2
+T_Controle,5,5715000,100000,557,600,0,600,0,83210,75552,16790,83.21,75.552,3
+T_Aquisicao,4,5715000,600000,311216,330000,0,330000,0,414530,388950,185470,69.0883333333333,64.825,3
+CADEIA_E2E,NaN,5715000,5715000,NaN,NaN,NaN,NaN,NaN,498010,389826,5216990,8.71408573928259,6.82110236220472,NaN

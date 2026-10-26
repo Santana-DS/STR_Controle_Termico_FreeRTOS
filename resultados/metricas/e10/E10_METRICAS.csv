@@ -1,0 +1,4 @@
+cenario,repeticoes,espera_media_us,espera_mediana_us,espera_p95_us,espera_p99_us,espera_max_us,prioridade_efetiva_baixa,janela_media_mediana_us
+MUTEX_BASELINE,30,16731.1,16730,16730,16753.43,16763,6,0
+MUTEX_HERANCA,30,16730.5,16730.5,16731,16731,16731,6,41664
+BINARIO_INVERSAO,30,58404.5,58404.5,58405,58405,58405,2,41671.5

@@ -1,0 +1,6 @@
+fase,carga_pct,jobs_aquisicao,jobs_controle,jobs_atuacao,jobs_supervisao,perdas_deadline,jitter_aquisicao_max_us,jitter_supervisao_max_us,resposta_aquisicao_max_us,resposta_controle_max_us,resposta_atuacao_max_us,resposta_supervisao_max_us,e2e_max_us,ciclos_carga,orcamento_total_us,janela_carga_max_us
+0,0,21,21,21,240,0,53438,0,381294,654,241,339032,381629,5984,0,157
+1,10,21,21,21,240,0,43444,980,381294,239,108,354040,381628,6000,12000000,78009
+2,25,21,21,21,240,0,28445,0,381295,242,111,369035,381633,6000,30000000,385489
+3,40,21,21,21,240,0,73444,2,381325,241,108,379041,381643,6000,48000000,385487
+4,60,21,21,21,239,0,68438,2,381295,250,111,329038,381633,6000,72000000,390485

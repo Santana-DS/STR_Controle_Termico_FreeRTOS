@@ -1,0 +1,4 @@
+metrica,valor,unidade
+operacoes_medidas,8,contagem
+lotes_por_operacao,300,contagem
+fim_normal,1,booleano

@@ -1,0 +1,9 @@
+tarefa,tipo,ativacao,periodo_us,deadline_us,prioridade,nucleo,c_observado_us,execucao_decorrida_max_us,resposta_observada_max_us,c_mbwcet_us,overhead_despacho_us,orcamento_rta_us,orcamento_inicial_us,orcamento_operacional_us,bloqueio_analise_us,recurso,natureza_limite
+T_Atuacao,esporadica,"comando/alarme",5715000,20000,8,1,93,93,241,110,160,270,2000,270,0,PWM/latch,"MB-WCET + margem e despacho"
+T_Watchdog,periodica,heartbeat,5000,20000,7,1,15,15,4439,20,0,20,NaN,20,0,heartbeat/latch,"MB-WCET + margem; resposta observada medida desde o vencimento"
+T_Supervisao,periodica/notificavel,"500 ms/evento",500000,500000,6,1,77976,385579,385579,82000,0,82000,80000,82000,325000,ADC/mutex,"MB-WCET + margem"
+T_Controle,sucessora,"nova amostra",5715000,100000,5,1,557,557,75552,600,0,600,10000,600,0,estado do controlador,"MB-WCET + margem"
+T_Aquisicao,periodica,"5,715 s",5715000,600000,4,1,311216,388944,388950,330000,0,330000,300000,330000,0,ADC/mutex,"envelope ajustado + margem; espera ocupada do ADC incluida"
+T_Comunicacao,aperiodica,"UART",NaN,100000,3,0,21,21,21,NaN,NaN,NaN,5000,5000,NaN,UART,"orcamento de projeto; heartbeat observado"
+T_Telemetria,aperiodica,"fila",NaN,5715000,2,0,51.05,NaN,NaN,NaN,NaN,NaN,25000,25000,NaN,UART/fila,"orcamento de projeto; formatacao observada"
+T_Carga,periodica de teste,"configuravel",NaN,NaN,1,1,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,CPU de teste,"somente experimental"

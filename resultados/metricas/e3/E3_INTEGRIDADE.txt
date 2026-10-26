@@ -1,0 +1,6 @@
+motivo_fim=FIM_NORMAL
+status_final=STATUS,E3,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0
+heartbeats_enviados=899
+heartbeats_confirmados=899
+EVENT,START,3600
+EVENT,END,FIM_NORMAL

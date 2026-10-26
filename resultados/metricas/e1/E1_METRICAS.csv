@@ -1,0 +1,7 @@
+tarefa,jobs,jitter_medio_us,jitter_p95_us,jitter_max_us,execucao_media_us,execucao_p95_us,execucao_p99_us,execucao_max_us,resposta_max_us,perdas_deadline,e2e_max_us,perdas_deadline_e2e
+ATUACAO,315,14.7047619047619,15,31,0.558730158730159,1,1,4,35,0,622,0
+CONTROLE,315,14.2920634920635,15,19,47.5428571428571,50,51,501,520,0,593,0
+AQUISICAO,315,428.653968253968,430,430,15.7079365079365,16,37.9200000000003,101,531,0,NaN,0
+SUPERVISAO,3604,0,0,0,2,2,2,2,2,0,NaN,0
+ATUA_STOP,1,30,30,30,0,0,0,0,30,0,57,0
+SUP_STOP,1,22,22,22,5,5,5,5,27,0,27,0

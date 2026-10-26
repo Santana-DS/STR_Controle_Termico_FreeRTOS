@@ -1,0 +1,3 @@
+motivo_fim=FIM_NORMAL
+resultados=90
+repeticoes_por_cenario=30

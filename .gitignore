@@ -1,0 +1,18 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# MATLAB
+*.asv
+*.autosave
+slprj/
+codegen/
+
+# Saídas locais de novas coletas (evidências aprovadas permanecem versionadas)
+resultados/reproduzidos/
+
+# Sistema operacional e editores
+.DS_Store
+Thumbs.db
+.vscode/
